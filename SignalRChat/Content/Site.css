@@ -1,0 +1,72 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #132a40;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: gray;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    position: absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 80%;
+    width: 20%;
+    background-color: #1E3D5E;
+    right: 0;
+    word-wrap: break-word;
+    overflow: auto;
+}
+.chat {
+  
+}
+
+.chatMessage {
+    color: white;
+    list-style: none;
+}
+
+.chatInput {
+
+}
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
